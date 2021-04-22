@@ -1,4 +1,4 @@
-##Part 1A
+## Part 1A
 1. values added: 20
 2. final result: 20
 3. values added: 20
@@ -7,7 +7,7 @@
 6. Line 13 also will not print due to the error mentioned above. To add on, the scope of the variable is within the if block and has same scope as 'let' so it will not be able to access result.
 
 
-##Part 1B
+## Part 1B
 1. Line 12 will print out 3 because we are running through the for loop and the for loop breaks on the last iteration when i goes from 2 to 3 since 3 is not less than 3 so it breaks the for loop and i is equal to 3 and line 12 will print that out.
 2. Line 13 will print out 150. This is because the final iteration of the for loop before breaking is when i is equal to 2 so when you plug these values into what discountedPrice is equal to then we get 300*(1-0.5) = 150. Also, the variable can be accessed out the for loop block since it uses the var declaration. 
 3. Line 14 will print 150. This is because once you perform the finalprice calcuation you get 150 and finalprice is declared using var so it can be accessed outside the scope. so line 14 will be 150. 
