@@ -55,4 +55,7 @@
     
     F) Output is true because Boolean(2) first converts to an integer value of 2 into true, and since true is equal to true, the output is true, since they have the same value of the same type. 
 15. The difference between == and === is that == allows data type conversion of the data types on each side that do not match one another. On the other hand, === does not allow this data type conversion on either side of the operator. 
-16. 
+16. Answer is in part1b-question16.js
+17. The function ouputs [2,4,6]. There is two functions one of the functions being doSomething which takes a number and multiplies it by 2 and then returns it. We pass in the given array and the function doSomething to the function modifyArray. The function modifyArray takes in the values of an array and the callback function. The modifyArray function creates a new array which we will push our new values into. So this function runs a loop which takes every value of the passed in array and does callback which is the function doSomething so each value of the array passed in is now mulitplied by 2 and pushed into the new array which was created. So that is how we get, [2,4,6].
+18. Answer is in part1b-question18.js
+19. 
