@@ -19,3 +19,24 @@
 9. Line 11 will have an error because i is declared with 'let' and is within the scope of the for loop so it cannont be accessed outside of said loop, so line 11 will not be able to access it. 
 10. Line 12 will return 3 because it is taking the length of the array that is given to us. It is declared using 'const' so the value will not change and is declared within the same scope as line 12 which is all within the function but not inside the loop.
 11. The function will still return the array [50,100,150]. As mentioned above in line 10, even though length is changed to 'const' declaration, it does not affect anything because the value is never changed. We are only pushing more elements into the array and const discounted is still holding the same array, it is that the array itself is just changing. So the discounted variable will not affect anything. 
+12. A) student.name 
+    B) student['Grad year']
+    C) student.greeting()
+    D) student['Favorite Teacher'].name
+    E) student.courseLoad[0]
+13. A) Output is '32' since integers map to their exact string representation
+    B) Output is '1' because the string '3' is converted to 3 and the math operation is performing getting the result 1.
+    C) Output is 3 because null becomes 0 so then 0 + 3 = 3.
+    D) Output is '3null' because null is convert to a string and you do string concatenated. 
+    E) Output is 4 because the boolean value of true is 1 and then added to 3.
+    F) Output is 0 because the boolean value of false is 0 and null becomes 0 so 0 + 0 = 0.
+    G) Output is '3undefined' because undefined is converted to string and then concatenated to the string of '3'.
+    H) Output is NaN because the '3' is convert to an integer and undefined is changed to NaN and any number subtracted by a NaN value is NaN. Undefined has no defined integer value.
+14. A) Output is true because the '2' is converted to an integer and 2 is greater than 1 so it is true.
+    B) Output is false because the two strings are compared in string format and since the small string length in the sense is "greater" it will output false.
+    C) Output is true because '2' is converted to an integer and 2 = 2 so it is true.
+    D) Output is false because three equal signs does not allow data type conversion so it compares two different data types so it returns false. 
+    E) Output is false because boolean true has a value of 1 and then it is compared to 2 and 1 does not equal 2, so returns false.
+    F) Output is true because Boolean(2) first converts to an integer value of 2 into true, and since true is equal to true, the output is true, since they have the same value of the same type. 
+15. The difference between == and === is that == allows data type conversion of the data types on each side that do not match one another. On the other hand, === does not allow this data type conversion on either side of the operator. 
+16. 
