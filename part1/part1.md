@@ -58,4 +58,4 @@
 16. Answer is in part1b-question16.js
 17. The function ouputs [2,4,6]. There is two functions one of the functions being doSomething which takes a number and multiplies it by 2 and then returns it. We pass in the given array and the function doSomething to the function modifyArray. The function modifyArray takes in the values of an array and the callback function. The modifyArray function creates a new array which we will push our new values into. So this function runs a loop which takes every value of the passed in array and does callback which is the function doSomething so each value of the array passed in is now mulitplied by 2 and pushed into the new array which was created. So that is how we get, [2,4,6].
 18. Answer is in part1b-question18.js
-19. 
+19. The output of the code is, 1 4 3 2.
